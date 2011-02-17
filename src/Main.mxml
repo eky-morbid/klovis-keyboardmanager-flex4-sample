@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<s:WindowedApplication
+xmlns:fx="http://ns.adobe.com/mxml/2009" applicationComplete="init()"
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx">
+
+    <fx:Script>
+        <![CDATA[
+        import fr.kapit.flex.keyboard.event.KeyboardManagerEvent;
+        import fr.kapit.flex.keyboard.KeyBoardManager;
+
+        import mx.core.FlexGlobals;
+
+        private var kbm:KeyBoardManager;
+
+        public function init():void {
+
+            trace("[App Started]");
+            kbm = new KeyBoardManager();
+            addEventListener(KeyboardManagerEvent.KEY_BOARD_MANAGER_EVENT, onKeyboardEvent);
+            mylabel.setFocus();
+        }
+
+        private function onKeyboardEvent(e:KeyboardManagerEvent):void {
+            trace("output : "+e.keyCombination);
+            mylabel.text = e.keyCombination;
+        }
+
+        ]]>
+    </fx:Script>
+    <s:Group width="100%" height="100%">
+        <s:layout>
+            <s:VerticalLayout verticalAlign="middle" horizontalAlign="center"/>
+        </s:layout>
+        <s:TextInput text="Press any keyboard combination"
+        textAlign="center" id="mylabel" fontSize="20" editable="false"
+        width="90%"/>
+    </s:Group>
+
+</s:WindowedApplication>
