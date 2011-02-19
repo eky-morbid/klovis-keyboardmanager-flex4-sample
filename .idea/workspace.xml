@@ -25,10 +25,7 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ca6093-55fe-4df9-93e0-f3eca9859c77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as" afterPath="$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as" />
-    </list>
+    <list default="true" id="b0ca6093-55fe-4df9-93e0-f3eca9859c77" name="Default" comment="" />
     <ignored path="klovis-keyboardmanager-flex4-sample.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,20 +84,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KeyBoardManager.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="KeyBoardManager.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="44" selection-start="2570" selection-end="2570" vertical-scroll-proportion="1.1046512">
+            <state line="51" column="28" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.mxml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.mxml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="9" column="8" selection-start="311" selection-end="311" vertical-scroll-proportion="0.42857143">
+              <folding>
+                <marker date="1297938492000" expanded="true" signature="107:113" placeholder="{...}" />
+                <marker date="1297938492000" expanded="true" signature="252:394" placeholder="..." />
+                <marker date="1297938492000" expanded="true" signature="474:688" placeholder="{...}" />
+                <marker date="1297938492000" expanded="true" signature="760:865" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -426,7 +428,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="48" width="1233" height="699" extended-state="0" />
+    <frame x="13" y="48" width="1233" height="699" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -527,17 +529,22 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.mxml">
+    <entry file="file://$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+        <state line="51" column="28" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as">
+    <entry file="file://$PROJECT_DIR$/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="44" selection-start="2570" selection-end="2570" vertical-scroll-proportion="1.1046512">
-          <folding />
+        <state line="9" column="8" selection-start="311" selection-end="311" vertical-scroll-proportion="0.42857143">
+          <folding>
+            <marker date="1297938492000" expanded="true" signature="107:113" placeholder="{...}" />
+            <marker date="1297938492000" expanded="true" signature="252:394" placeholder="..." />
+            <marker date="1297938492000" expanded="true" signature="474:688" placeholder="{...}" />
+            <marker date="1297938492000" expanded="true" signature="760:865" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
