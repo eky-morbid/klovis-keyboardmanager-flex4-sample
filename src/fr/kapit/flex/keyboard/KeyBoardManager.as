@@ -14,7 +14,9 @@ package fr.kapit.flex.keyboard
 	import fr.kapit.flex.keyboard.event.KeyboardManagerEvent;
 	
 	import mx.core.Application;
-	/**
+import mx.core.FlexGlobals;
+
+/**
 	 * The KeyBoardManager is responsible of detecting all the keys pressed
 	 * on the keyboard and dispatches then a KeyBoardManagerEvent with the 
 	 * corresponding key combination.
@@ -42,14 +44,15 @@ package fr.kapit.flex.keyboard
 		
 		public function KeyBoardManager()
 		{
-			if(Application.application)
-			{
+
+			//if(Application.application)
+			//{
 				// The event listeners are added on the systemManager because when an  
 				// event is dispatched from a PopUp, this is the only place where we can get
 				// catch it.
-				Application.application.systemManager.addEventListener(KeyboardEvent.KEY_DOWN, keyDownHandler);
-				Application.application.systemManager.addEventListener(KeyboardEvent.KEY_UP, keyUpHandler);
-			}
+				FlexGlobals.topLevelApplication.addEventListener(KeyboardEvent.KEY_DOWN, keyDownHandler);
+				FlexGlobals.topLevelApplication.addEventListener(KeyboardEvent.KEY_UP, keyUpHandler);
+			//}
 		}
 		
 		//------------------------------------------------------------------------
@@ -72,7 +75,7 @@ package fr.kapit.flex.keyboard
 				else	
 					concat = (concat == "") ? String.fromCharCode(key).toLocaleLowerCase() :concat + "+" + String.fromCharCode(key).toLocaleLowerCase();
 			}
-			dispatchEvent(new KeyboardManagerEvent(KeyboardManagerEvent.KEY_BOARD_MANAGER_EVENT, false, false, concat));
+		    FlexGlobals.topLevelApplication.dispatchEvent(new KeyboardManagerEvent(KeyboardManagerEvent.KEY_BOARD_MANAGER_EVENT, false, false, concat));
 		}
 		
 		//------------------------------------------------------------------------
