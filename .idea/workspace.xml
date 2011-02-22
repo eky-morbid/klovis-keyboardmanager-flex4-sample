@@ -25,7 +25,9 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ca6093-55fe-4df9-93e0-f3eca9859c77" name="Default" comment="" />
+    <list default="true" id="b0ca6093-55fe-4df9-93e0-f3eca9859c77" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="klovis-keyboardmanager-flex4-sample.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,25 +86,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KeyBoardManager.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="KeyBoardManager.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="28" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0">
+            <state line="77" column="43" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.031894933">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.mxml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.mxml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="311" selection-end="311" vertical-scroll-proportion="0.42857143">
-              <folding>
-                <marker date="1297938492000" expanded="true" signature="107:113" placeholder="{...}" />
-                <marker date="1297938492000" expanded="true" signature="252:394" placeholder="..." />
-                <marker date="1297938492000" expanded="true" signature="474:688" placeholder="{...}" />
-                <marker date="1297938492000" expanded="true" signature="760:865" placeholder="{...}" />
-              </folding>
+            <state line="15" column="49" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,6 +235,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,7 +367,9 @@
       </method>
     </configuration>
     <configuration default="false" name="Klovis KeyboardManager Sample" type="AirRunConfigurationType" factoryName="AIR" adl_options="" air_descriptor_path="$PROJECT_DIR$/src/main-app.xml" air_program_params="" air_publisher_id="" air_root_dir_path="$PROJECT_DIR$/bin/production/klovis-keyboardmanager-flex4-sample" air_run_mode="AppDescriptor" browser_family="FIREFOX" debugger_sdk="4.0 AIR" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" module_name="klovis-keyboardmanager-flex4-sample" player_path="/usr/bin/flashplayer" run_mode="HtmlOrSwfFile" run_trusted="false" url_to_launch="http://">
+      <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
@@ -428,26 +427,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="48" width="1233" height="699" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="36" width="1233" height="699" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3979933" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24872665" sideWeight="0.6707317" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20118846" sideWeight="0.6010453" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -531,21 +530,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kapit/flex/keyboard/KeyBoardManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="28" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0">
+        <state line="77" column="43" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.031894933">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="311" selection-end="311" vertical-scroll-proportion="0.42857143">
-          <folding>
-            <marker date="1297938492000" expanded="true" signature="107:113" placeholder="{...}" />
-            <marker date="1297938492000" expanded="true" signature="252:394" placeholder="..." />
-            <marker date="1297938492000" expanded="true" signature="474:688" placeholder="{...}" />
-            <marker date="1297938492000" expanded="true" signature="760:865" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="15" column="49" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>
